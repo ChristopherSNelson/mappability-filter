@@ -176,6 +176,15 @@ Tx to remove:        4,231  (1.7%)
 ============================================================
 ```
 
+## Limitations
+
+- **k100 is the maximum** — UCSC doesn't provide mappability tracks for modern 150bp+ reads. k100 is the closest available.
+- **hg38 only** — No mouse or hg19 support (would require different mappability tracks).
+- **Single-end assumption** — Paired-end reads can map uniquely even when individual reads don't. This tool doesn't account for that.
+- **Exons, not CDS** — Scores all exonic bases including UTRs. For Ribo-seq you may only care about CDS mappability.
+- **Gene ID versions stripped** — `ENSG00000123456.1` becomes `ENSG00000123456`. Some pipelines retain versions.
+- **Modern aligners handle multi-mappers** — Tools like STAR, salmon, and kallisto use probabilistic multi-mapper assignment. Filtering genes entirely may be overly aggressive if using these tools.
+
 ## License
 
 MIT
