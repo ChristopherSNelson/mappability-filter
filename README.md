@@ -73,7 +73,7 @@ Thresholds:
 
 ## Choosing K-mer Length
 
-Match the k-mer to your read length:
+Match the k-mer to your read length (These are for riboseq and older public reads, dataset from UCSC):
 
 | Read Length | Recommended K-mer |
 |-------------|-------------------|
@@ -82,7 +82,6 @@ Match the k-mer to your read length:
 | 50-75 bp    | k50               |
 | 100+ bp     | k100              |
 
-For **Ribo-seq** (typically 28-32 nt footprints), use **k36**.
 
 ## Output Files
 
