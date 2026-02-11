@@ -166,13 +166,13 @@ curl -O https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_47/gen
 SUMMARY
 ============================================================
 Mappability file:  k36.Unique.Mappability.bb
-GTF file:          gencode.v48.annotation.gtf.gz
+GTF file:          gencode.v48.basic.annotation.gtf.gz
 Mode:              bigBed
 Removal cutoff:    50% unmappable exonic bases
-Genes scored:        62,703
-Genes to remove:        847  (1.4%)
-Tx scored:          252,891
-Tx to remove:        4,231  (1.7%)
+Genes scored:        20,096
+Genes to remove:        729  (3.6%)
+Tx scored:          111,925
+Tx to remove:         2,247  (2.0%)
 ============================================================
 ```
 
