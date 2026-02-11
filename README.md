@@ -185,6 +185,17 @@ Tx to remove:         2,247  (2.0%)
 - **Gene ID versions stripped** — `ENSG00000123456.1` becomes `ENSG00000123456`. Some pipelines retain versions.
 - **Modern aligners handle multi-mappers** — Tools like STAR, salmon, and kallisto use probabilistic multi-mapper assignment. Filtering genes entirely may be overly aggressive if using these tools.
 
+## References
+
+- **Umap and Bismap** — The mappability tracks used by this tool:
+  Karimzadeh M, Ernst C, Kundaje A, Hoffman MM. [Umap and Bismap: quantifying genome and methylome mappability](https://doi.org/10.1093/nar/gky677). *Nucleic Acids Research* 2018;46(20):e120.
+
+- **Dark genes** — Why unmappable genes matter:
+  Ebbert MTW, Jensen TD, Jansen-West K, et al. [Systematic analysis of dark and camouflaged genes reveals disease-relevant genes hiding in plain sight](https://doi.org/10.1186/s13059-019-1707-2). *Genome Biology* 2019;20:97.
+
+- **ENCODE mappability** — Earlier foundational work:
+  Derrien T, Estellé J, Sola SM, et al. [Fast computation and applications of genome mappability](https://pmc.ncbi.nlm.nih.gov/articles/PMC3237808/). *PLoS ONE* 2012;7(1):e30377.
+
 ## License
 
 MIT
